@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  font-family: Arial;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #00f0ff;
+}
+
+.content h1 {
+  font-size: 50px;
+  text-shadow: 0 0 20px #00f0ff;
+}
+
+.content a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid #00f0ff;
+  color: #00f0ff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.content a:hover {
+  background: #00f0ff;
+  color: black;
+  box-shadow: 0 0 20px #00f0ff;
+}
